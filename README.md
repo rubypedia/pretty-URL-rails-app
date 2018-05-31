@@ -1,24 +1,15 @@
-# README
+# INSTALL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Clone Repository
 
-Things you may want to cover:
+	git clone https://github.com/rubypedia/pretty-URL-rails-app.git
 
-* Ruby version
+	cd pretty-URL-rails-app
 
-* System dependencies
+	bundle install
 
-* Configuration
+	rails db:migrate
 
-* Database creation
+	rake db:seed
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+	rails s
